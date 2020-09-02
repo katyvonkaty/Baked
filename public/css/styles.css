@@ -206,7 +206,7 @@ font-size:12px;
   }
 
   .btn {
-    width:60%;
+    width:60% !important;
     margin:0 auto;
   }
 
