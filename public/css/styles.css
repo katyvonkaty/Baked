@@ -1,0 +1,212 @@
+/* //global// */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  height: auto;
+}
+
+.bg-light {
+  background-color: #FCBF49 !important;
+}
+
+h1,h2,h3,h4 {
+  font-weight:600;
+}
+
+.navbar-brand {
+  font-weight: 600;;
+}
+
+/* / top container // */
+#texts {
+  margin-top: -420px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#topContainer h4 {
+  text-align:center;
+  font-weight:400;
+}
+
+p {
+  text-align: center;
+}
+
+#topContainer {
+  background-image: url("/images/bg.svg");
+  height: 85vh;
+  background-size: cover;
+}
+
+.tilda {
+  margin-top: 130px;
+  margin-left: 30px;
+}
+
+button {
+  background-color: #003049 !important;
+  border-color: transparent !important;
+  top: -220px;
+
+  border-radius: 35px 35px 35px 35px !important;
+}
+
+.btn{
+  width:40% !important;
+  margin:0 auto;
+}
+
+/* / phone images // */
+
+#phoneImages {
+  margin-top:-60px;
+}
+
+#imgOne {
+  transform: rotate(-5deg) !important;
+}
+
+#imgTwo {
+  transform: rotate(5deg) !important;
+  top:-80px;
+}
+
+#imgThree {
+  transform: rotate(-5deg)!important;
+}
+
+#copy h2 {
+  text-align:center;
+}
+
+.tilda1 {
+  margin-top: -130px;
+  margin-left: 30px;
+}
+
+/* /// sales pitch ////  */
+#salespitch {
+  margin-top:-200px;
+}
+
+.orange {
+  margin-left: -220px;
+  transform: rotate(-145deg);
+}
+
+#copy {
+  margin-top:-60px;
+}
+
+.card-deck {
+  margin-top:30px;
+}
+
+.card {
+  padding:20px;
+}
+
+.card-header {
+  background-color: #ffc107!important;
+}
+
+
+/* /// closing ///  */
+
+#closingArgs {
+  background-image:url("/images/footer.svg");
+  height: auto;
+  background-size: cover;
+  margin-top: -120px;
+}
+
+#closingArgs h2 {
+  text-align: left;
+}
+
+#closingArgs p {
+  text-align: left;
+}
+
+#imgFour {
+  transform: rotate(5deg) !important;
+  top:-90px !important;
+  width:100%;
+  height:100%;
+}
+
+#imgFive {
+  transform: rotate(-5deg) !important;
+  width:100%;
+  top:-60px !important;
+  height:100%;
+}
+
+
+#dottie {
+  position: relative;
+  top:-140px;
+  z-index:-10;
+}
+
+/* //// footer ///// */
+.footer{
+background-color: #003049 !important;
+width: 100%;
+padding:30px;
+font-size:12px;
+}
+
+.text-muted {
+  color:white !important;
+}
+
+/* //// media queries  */
+
+@media(max-width:767px){
+  .tilda{
+    margin-left: -30px;
+    width: 15%;
+  }
+
+  #texts {
+    margin-top:-140px;
+  }
+
+  button {
+    top:60px;
+  }
+
+  #topContainer {
+    height:100vh;
+  }
+
+  .navbar-light .navbar-toggler {
+    background-color: transparent !important;
+  }
+
+  .squiggle {
+    display: none;
+  }
+
+  .btn {
+    width:60%;
+    margin:0 auto;
+  }
+
+  #imgTwo, #imgFive {
+    width:80%;
+    margin:0 auto;
+    margin-top:-90px;
+  }
+
+  #imgOne, #imgThree,#imgFour {
+    display: none;
+  }
+}
