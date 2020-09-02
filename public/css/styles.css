@@ -189,6 +189,10 @@ font-size:12px;
     top:60px;
   }
 
+  .card-deck {
+    padding:30px;
+  }
+
   #topContainer {
     height:100vh;
   }
@@ -207,7 +211,7 @@ font-size:12px;
   }
 
   #imgFive {
-    margin-top:80px;
+    margin-top:130px !important;
     width:80%;
     margin:0 auto;
   }
