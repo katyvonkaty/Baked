@@ -70,15 +70,21 @@ button {
 
 #imgOne {
   transform: rotate(-5deg) !important;
+  height: 100%;
+  width:100%;
 }
 
 #imgTwo {
   transform: rotate(5deg) !important;
   top:-80px;
+  height: 100%;
+  width:100%;
 }
 
 #imgThree {
   transform: rotate(-5deg)!important;
+  height: 100%;
+  width:100%;
 }
 
 #copy h2 {
