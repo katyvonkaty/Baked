@@ -49,12 +49,23 @@ p {
   margin-left: 30px;
 }
 
+.mainbutton a {
+  color: white !important;
+}
+
+#copyimage a {
+  color: white !important;
+}
+
+.mainbutton{
+  margin-top:40px;
+}
+
 button {
   background-color: #003049 !important;
   border-color: transparent !important;
-  top: -220px;
-
   border-radius: 35px 35px 35px 35px !important;
+  margin-top:-220px;
 }
 
 .btn{
@@ -65,26 +76,20 @@ button {
 /* / phone images // */
 
 #phoneImages {
-  margin-top:-60px;
+  margin-top:-20px;
 }
 
 #imgOne {
   transform: rotate(-5deg) !important;
-  height: 100%;
-  width:100%;
 }
 
 #imgTwo {
   transform: rotate(5deg) !important;
   top:-80px;
-  height: 100%;
-  width:100%;
 }
 
 #imgThree {
-  transform: rotate(-5deg)!important;
-  height: 100%;
-  width:100%;
+  transform: rotate(-10deg)!important;
 }
 
 #copy h2 {
@@ -189,10 +194,6 @@ font-size:12px;
     top:60px;
   }
 
-  .card-deck {
-    padding:30px;
-  }
-
   #topContainer {
     height:100vh;
   }
@@ -206,23 +207,17 @@ font-size:12px;
   }
 
   .btn {
-    width:60% !important;
+    width:60%;
     margin:0 auto;
   }
 
-  #imgFour {
-    margin-top:130px !important;
-    width:80%;
-    margin:0 auto;
-  }
-
-  #imgTwo {
+  #imgTwo, #imgFive {
     width:80%;
     margin:0 auto;
     margin-top:-90px;
   }
 
-  #imgOne, #imgThree,#imgFive {
+  #imgOne, #imgThree,#imgFour {
     display: none;
   }
 }

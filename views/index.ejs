@@ -22,24 +22,35 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-8 offset-sm-2" id="texts" >
+    <div class="col-sm-8 offset-sm-2" id="texts">
       <h1> Welcome to Get Baked. <br> A Dating App for Like Minded Carbohydrates. </h1>
       <h4 id="typer"> </h4>
-      <!-- <h1>It's Time. Time to Get Baked. </h1>
-      <p>Sign up for the sweetest experience of your life. Meet other cakes and cookies locally and globally.</p> -->
+
       <span id="typed"></span>
+      <div class="row mainbutton">
+      <button class="btn btn-primary btn-lg"> <a href="https://www.figma.com/proto/2IVtmVFLaatiOUUnMda6aO/Icing-Apps?scaling=scale-down&node-id=22%3A49">
+             Download App
+          </a>
+
+
+
+
+      </button>
     </div>
-    <a href="https://www.figma.com/proto/2IVtmVFLaatiOUUnMda6aO/Icing-Apps?scaling=scale-down&node-id=22%3A49"><button class="btn btn-primary btn-lg col-sm-4 offset-sm-4">  Download App </button> </a>
 
   </div>
+
+
+
+
 </div>
 
 <div class='container' id="phoneImages">
 
   <div class="row">
-    <img class=" col-sm-4" src="/images/bg2.png" id="imgOne">
-    <img class="col-sm-4" src="/images/bg1.png" id="imgTwo">
-    <img class="col-sm-4" src="/images/bg3.png" id="imgThree">
+    <img class=" col-sm-4" src="/images/bg3.png" id="imgOne">
+    <img class="col-sm-4" src="/images/bg2.png" id="imgTwo">
+    <img class="col-sm-4" src="/images/bg1.png" id="imgThree">
   </div>
 
   <div class='row'>
@@ -103,13 +114,15 @@
 
   <div class="row" id="copyimage">
     <div class="offset-md-1 col-md-4">
-      <h2>  The first batch was too soft, the second too chewy. Dating cookies is hard work. </h2>
-      <p> Made from pure cane sugar, it works cup-for-cup just like white sugar, but has a beautiful golden color and a distinct hint of molasses flavor you’re sure to love. Made from pure cane sugar, it works cup-for-cup just like white sugar, but has a beautiful golden color and a distinct hint of molasses flavor you’re sure to love. Made from pure cane sugar, it works cup-for-cup just like white sugar, but has a beautiful golden color and a distinct hint of molasses flavor you’re sure to love.</p>
+      <h2> No Sugar Free People Allowed. <br> Just to keep our community safe. </h2>
+      <p> Made from pure cane sugar, it works cup-for-cup just like white sugar, but has a beautiful golden color and a distinct hint of molasses flavor you’re sure to love. Made from pure cane sugar, it works cup-for-cup just like white sugar, but
+        has a beautiful golden color and a distinct hint of molasses flavor you’re sure to love. Made from pure cane sugar, it works cup-for-cup just like white sugar, but has a beautiful golden color and a distinct hint of molasses flavor you’re
+        sure to love.</p>
 
-      <a href="https://www.figma.com/proto/2IVtmVFLaatiOUUnMda6aO/Icing-Apps?scaling=scale-down&node-id=22%3A49"><button class="btn btn-primary btn-lg"> Download Now </button> </a>
+      <button class="btn btn-primary btn-lg"><a href="https://www.figma.com/proto/2IVtmVFLaatiOUUnMda6aO/Icing-Apps?scaling=scale-down&node-id=22%3A49"> Download Now </a> </button>
     </div>
-    <img class="col-md-3" src="/images/logon.png" id="imgFour">
-    <img class="col-md-3" src="/images/success.png" id="imgFive">
+    <img class="col-md-3" src="/images/bg4.png" id="imgFour">
+    <img class="col-md-3" src="/images/bg5.png" id="imgFive">
 
   </div>
 
@@ -119,7 +132,7 @@
 
 <footer class="footer">
   <div class="container-fluid">
-    <span class="text-muted"> This is very much a fake idea by a individudal who delights in asburd ideas but if you want to become an angel investor hmu.</span>
+    <span class="text-muted"> This is very much a fake idea by a very bored and unemployed individual but if you want to become an angel investor hmu.</span>
   </div>
 </footer>
 
@@ -129,7 +142,6 @@
 <script src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 <script>
-
   window.sr = ScrollReveal({
     reset: true
   });
@@ -140,10 +152,10 @@
       'Do you have a sweet tooth?',
       'Are you looking to meet other confections?',
       'Do you dream in sprinkles?',
-        "If yes, it's time to get baked"
+      "If yes, it's time to get baked"
     ],
     stringsElement: null,
-    typeSpeed:15,
+    typeSpeed: 15,
     startDelay: 500,
     showCursor: false
   });
@@ -159,8 +171,7 @@
 
   sr.reveal('#imgOne', {
     delay: 1000,
-    duration: 500,
-    opacity:0
+    duration: 500
   });
 
   sr.reveal('#imgTwo', {
