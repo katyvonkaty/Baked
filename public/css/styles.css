@@ -211,10 +211,16 @@ font-size:12px;
     margin:0 auto;
   }
 
-  #imgTwo, #imgFive {
-    width:80%;
-    margin:0 auto;
-    margin-top:-90px;
+ #imgFive {
+   width: 80%;
+ margin: 0 auto;
+ margin-top: 100px;
+  }
+
+  #imgTwo {
+    width: 80%;
+height: 100%;
+margin-top: 130px;
   }
 
   #imgOne, #imgThree,#imgFour {
